@@ -18,7 +18,6 @@ DELETE   http://localhost:3000/items/677d403bbcb28c5e6815a8bd
 Content-Type: application/json
 Accept: application/json
 
-34.124.147.75:3000
 
 ###
 POST http://34.124.147.75:3000/items
