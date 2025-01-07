@@ -22,7 +22,7 @@ jobs:
         port: 22
         script: |
           # Login ke VPS dan tarik perubahan terbaru dari GitHub
-          cd apps/express-mongo
+          cd /home/mujahidramdhani/apps/express-mongo
           git pull origin main  # Ambil perubahan terbaru dari branch main
 
           # Jalankan perintah deploy (misalnya install dependencies dan restart aplikasi)
