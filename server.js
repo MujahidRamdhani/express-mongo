@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Koneksi ke MongoDB
-mongoose.connect('mongodb://localhost:27017/expressdb', {
+mongoose.connect('mongodb://34.124.147.75:27017/expressdb', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
