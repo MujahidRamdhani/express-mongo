@@ -27,5 +27,6 @@ jobs:
 
           # Jalankan perintah deploy (misalnya install dependencies dan restart aplikasi)
           npm install  # Jika aplikasi Node.js
-          npm run build
-          pm2 restart all  # Restart aplikasi jika menggunakan PM2
+          
+           # Jalankan atau restart aplikasi dengan PM2
+          pm2 start index.js --name "express-mongo" || pm2 restart express-mongo
